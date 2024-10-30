@@ -17,12 +17,31 @@ Ikuti langkah-langkah berikut untuk menginstal proyek ini:
    git clone https://github.com/username/repo-name.git
    cd repo-name
    ```
-   python -m venv venv
-   source venv/bin/activate # Untuk Linux/Mac
-   venv\Scripts\activate # Untuk Windows
-   Sesuaikan pengaturan database di file settings.py proyek Anda.
+2. **Buat Virtual Environment**
 
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-Akses Aplikasi Buka browser Anda dan akses: http://127.0.0.1:8000/api/data
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Sesuaikan Pengaturan Database : Buka file settings.py dan sesuaikan pengaturan database sesuai kebutuhan Anda.**
+
+4. **Instal Dependensi**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Migrate Database**
+
+   ```bash
+   python manage.py migrate
+   ```
+
+6. **Jalankan Server**
+
+   ```bash
+   python manage.py runserver
+   ```
+
+7. **Akses Aplikasi : Buka browser Anda dan akses: http://127.0.0.1:8000/api/data**
