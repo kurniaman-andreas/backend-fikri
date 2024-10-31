@@ -1,5 +1,7 @@
 # backend-fikri
 
+![Alt text](/fikri_project/static/images/screenshoot-api.png)
+
 ## Prerequisites
 
 Pastikan Anda memiliki perangkat lunak berikut terinstal:
